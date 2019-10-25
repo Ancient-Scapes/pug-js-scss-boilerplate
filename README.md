@@ -1,4 +1,4 @@
-# pug-scss-boilerplate
+# pug-js-scss-boilerplate
 
 ## Usage
 
@@ -51,7 +51,7 @@ src/pug
 - index.pug
   - エントリーポイントのindex.html
 
-## sass
+## scss
 
 ### scssディレクトリ構成
 
@@ -83,10 +83,15 @@ src/scss
   - ページごとにディレクトリを切ってその配下にstyle.scssを置く(ex. `pages/test/style.scss` )
   - あとは普通にBEMで書けばok
 - main.scss
-  - 共通sassです 全ページで読み込まれる この中の処理はimportだけにしておきたい
+  - 共通scssです 全ページで読み込まれる この中の処理はimportだけにしておきたい
 
 ## 推奨extension
 
 - [pug-lint](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-puglint)
 
 ## TODO
+
+## 注意事項
+
+- pug-lintは-fixオプションがないので自動修正が効かない
+- ビルドコマンドはまだ作ってない(多分すぐできるから必要になったら追加)
