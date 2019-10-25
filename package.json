@@ -1,10 +1,10 @@
 {
-  "name": "project-test",
+  "name": "pug-js-scss-boilerplate",
   "description": "",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
-  "author": "yumemi frontend team boolean",
+  "author": "Ancient-Scapes",
   "scripts": {
     "release": "gulp release",
     "build": "gulp",
